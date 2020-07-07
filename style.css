@@ -112,9 +112,7 @@ main p a:hover {
 
 /* --------------------------------- FOOTER --------------------------------- */
 footer {
-    /* padding: 0px 20px; */
     position: fixed;
-    /* height: 50px; */
     bottom: 0;
     left: 0;
     width: 100%;
@@ -145,12 +143,13 @@ footer p {
     align-items: center;
 }
 
-.footer2 {
-    justify-content: flex-end;
-}
 .footer1 {
     justify-content: flex-start;
 }
+.footer2 {
+    justify-content: flex-end;
+}
+
 
 .footer1 li, .footer2 li {
     margin-right: 20px;
